@@ -1,15 +1,18 @@
 "use client";
 
 export function Analytics() {
-	const token = process.env.NEXT_PUBLIC_BEAM_TOKEN;
-	if (!token) {
-		return null;
-	}
-	return (
-		<script
-			src="https://beamanalytics.b-cdn.net/beam.min.js"
-			data-token={token}
-			async
-		/>
-	);
+  const id = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
+  const script = process.env.NEXT_PUBLIC_UMAMI_SCRIPT_SRC || "https://analytics.cubeyond.net/script.js";
+
+  if (!id) {
+    return null;
+  }
+
+  return (
+    <script
+      src={script}
+      data-website-id={id}
+      defer
+    />
+  );
 }

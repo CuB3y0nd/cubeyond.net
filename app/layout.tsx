@@ -1,24 +1,24 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+import { Space_Grotesk } from "next/font/google"
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://cubeyond.net'),
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "cubeyond.net",
+    template: "%s | cubeyond.net",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Developer / Cyber Security enthusiast",
   openGraph: {
-    title: "chronark.com",
+    title: "cubeyond.net",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Developer / Cyber Security enthusiast",
+    url: "https://cubeyond.net",
+    siteName: "cubeyond.net",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://cubeyond.net/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,22 +38,19 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "CuB3y0nd",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.ico",
   },
 };
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
 
-const calSans = LocalFont({
-  src: "../public/fonts/CalSans-SemiBold.ttf",
-  variable: "--font-calsans",
-});
+const space_grotesk = Space_Grotesk({
+  subsets: ["latin"],
+  display: 'swap',
+  variable: '--font-space-grotesk',
+})
 
 export default function RootLayout({
   children,
@@ -61,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="en" className={`${space_grotesk.variable}`}>
       <head>
         <Analytics />
       </head>
