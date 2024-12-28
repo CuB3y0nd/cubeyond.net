@@ -3,7 +3,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Portfolio", href: "https://assembly.rip" },
+  { name: "Portfolio", href: "https://assembly.rip", target: "_blank" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -16,6 +16,7 @@ export default function Home() {
             <Link
               key={item.href}
               href={item.href}
+              target={item.target}
               className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
             >
               {item.name}

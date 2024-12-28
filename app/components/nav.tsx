@@ -32,6 +32,7 @@ export const Navigation: React.FC = () => {
           <div className="flex justify-between gap-8">
             <Link
               href="https://assembly.rip"
+              target="_blank"
               className="duration-200 text-zinc-400 hover:text-zinc-100"
             >
               Portfolio
