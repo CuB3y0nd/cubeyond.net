@@ -2,7 +2,6 @@
 
 export function Analytics() {
   const id = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
-  const script = process.env.NEXT_PUBLIC_UMAMI_SCRIPT_SRC || "https://analytics.cubeyond.net/script.js";
 
   if (!id) {
     return null;
@@ -10,7 +9,7 @@ export function Analytics() {
 
   return (
     <script
-      src={script}
+      src="https://analytics.cubeyond.net/script.js"
       data-website-id={id}
       defer
     />
