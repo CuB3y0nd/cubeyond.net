@@ -58,9 +58,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${space_grotesk.variable}`}>
-      <head>
-        <script defer src="https://analytics.cubeyond.net/script.js" data-website-id="15d8b4d0-6ec2-4a6f-bf9a-d4fbd0006f4b"></script>
-      </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
