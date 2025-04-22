@@ -4,7 +4,7 @@
  */
 
  pre:hover{
-   box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
+   box-shadow: 0px 0px 40px 5px rgba(17,17,27,0.4);
  }
 
  #skip-animation, #pause-resume {
@@ -14,11 +14,9 @@
 /**
  * I hope you enjoyed this.
  *
- * Thanks to Jake Albaugh, who was the first (that I know of) to do
- * a page like this. Some of the autotyping and syntax highlighting
- * code is based off his work.
+ * Thanks to Samuel Reed, who created such this pretty project.
  *
- * See more of Jake's work at http://codepen.io/jakealbaugh/
+ * See more of Samuel's work at https://github.com/STRML
  */
 
 /**
@@ -35,7 +33,7 @@
  */
 
 .value {
-  text-shadow: 0px 15px 1px white;
+  text-shadow: 0px 15px 1px #f9e2af;
 }
 
 /**

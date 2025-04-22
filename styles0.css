@@ -1,15 +1,12 @@
 /**
  *
- * Hey. My name's Samuel Reed. I'm a co-founder of BitMEX and frequent
- * open source contributor.
- *
- * I build interactive websites.
+ * Hey. My name's CuB3y0nd. I'm a developer and cyber security enthusiast.
  *
  * How about some live coding?
  */
 
 /**
- * Let's begin. We start by animating... well, everything.
+ * Let's begin. We start by animating... Well, everything.
  */
 
 * {
@@ -24,7 +21,7 @@
  */
 
 html {
-  background: rgb(63, 82, 99);
+  background: rgb(30, 30, 46);
 }
 
 /***
@@ -32,7 +29,7 @@ html {
  */
 
 pre, a {
-  color: white;
+  color: rgb(205, 214, 244);
 }
 
 /**
@@ -45,12 +42,12 @@ pre, a {
 
 pre:not(:empty) {
   overflow: auto;
-  background: rgb(48, 48, 48);
-  border: 1px solid #ccc;
+  background: rgb(26, 27, 38);
+  border: 1px solid #eba0ac;
   max-height: 45vh;
   width: 49%;
   font-size: 14px;
-  font-family: monospace;
+  font-family: 'JetBrains Mono', monospace;
   padding: 1vh 0.5vw;
   box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
   white-space: pre-wrap;
@@ -73,12 +70,12 @@ pre:not(:empty) {
  * Let's make it even more readable.
  */
 
-.comment       { color: #857F6B; font-style: italic; }
-.selector      { color: #E69F0F; }
-.selector .key { color: #64D5EA; }
-.key           { color: #64D5EA; }
-.value         { color: #BE84F2; }
-.value.px      { color: #F92772; }
+.comment       { color: #6c7086; font-style: italic; }
+.selector      { color: #cba6f7; }
+.selector .key { color: #b4befe; }
+.key           { color: #b4befe; }
+.value         { color: #fab387; }
+.value.px      { color: #a6e3a1; }
 
 /**
  * Now we're getting somewhere.

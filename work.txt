@@ -1,49 +1,28 @@
-STRML.net
+cubeyond.net
 =========
 
-Samuel Reed
-Co-Founder, BitMEX (The Bitcoin Mercantile Exchange)
-Full-Stack / NodeJS / DevOps
+ID: CuB3y0nd
+ROAL: PWNER
+TEAM: NO TEAM YET :(
+Personality: INTJ-A 5w4 / Tritype 513
 
 Contact
 -------
 
-* sam at bitmex dot com
-* samuel.trace.reed at gmail dot com
-* STRML on irc.freenode.net
-* @STRML_ on Twitter
-* STRML#7665 on Discord
+* root at cubeyond dot net
+* CuB3y0nd#6307 on Discord
 
-Projects
+Domains
 --------
 
-* www.BitMEX.com
-* www.Securesha.re
-* www.Tixelated.com
-* www.BrightestYoungThings.com
-and of course...
-* www.strml.net
+* www.cubeyond.net
+* www.assembly.rip
 
 Open Source
 -----------
 
-* Babel
-* React-Grid-Layout
-* React-LocalStorage
-* React-Router-Component
-* React-Resizable
-* React-Draggable
-* OpenBazaar
-* JSXHint
-* BTChip-Signing-Tools
-* TextFit
-* Imgur-to-GFYcat
-* backbone.queryRouter
-* backbone.layoutManager
-* Mongoose-Filter-Denormalize
-
-Photos
-------
-
-* [Party Rock is in the hou](/img/partyrock1.jpg)
-  * [se tonight](/img/partyrock2.jpg)
+* [My aesthetic dotfiles configuration.](https://github.com/CuB3y0nd/1llusion)
+* [My personal landing page.](https://github.com/CuB3y0nd/cubeyond.net)
+* [My personal portfolio.](https://github.com/CuB3y0nd/assembly.rip)
+* [A tiny UNIX-like linux kernel.](https://github.com/CuB3y0nd/Exordium)
+* [My aesthetic nvim configuration.](https://github.com/CuB3y0nd/DOOM)
