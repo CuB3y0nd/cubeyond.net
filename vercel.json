@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [],
+  "routes": [
+    {
+      "src": "/dist/(.*)",
+      "dest": "/dist/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
+}
