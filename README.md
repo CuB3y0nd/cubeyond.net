@@ -1,22 +1,25 @@
-STRML.net
-=========
+<div align="center">
+    <h1 align="center">cubeyond.net</h1>
 
-[View Site](http://strml.net)
+My personal landing page, built with [webpack](https://webpack.js.org/), and deployed to [vercel](https://vercel.com/).
+</div>
 
-Building
---------
+## Running Locally
 
 ```bash
-git clone git@github.com:STRML/strml.net.git
-cd strml.net
-npm install
-npm run dev
-# Open localhost:4003/index-dev.html in your browser
+git clone https://github.com/CuB3y0nd/cubeyond.net.git
+cd cubeyond.net
 ```
 
-Building for Production
---------
+Then install dependencies and run the development server:
 
 ```bash
-npm run build
+pnpm install
+pnpm dev
+```
+
+## Building for Production
+
+```bash
+pnpm build
 ```
